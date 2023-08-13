@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/nabab/OneDrive/Desktop/programming files/Sorting/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\secSort.dir\\selection_sort.cpp.obj -c \"C:\\Users\\nabab\\OneDrive\\Desktop\\programming files\\Sorting\\selection_sort.cpp\"",
+  "file": "C:/Users/nabab/OneDrive/Desktop/programming files/Sorting/selection_sort.cpp",
+  "output": "CMakeFiles/secSort.dir/selection_sort.cpp.obj"
+}
+]

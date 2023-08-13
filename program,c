@@ -1,0 +1,36 @@
+//Write a C Program to find the sum of two matrices using function.
+#include<stdio.h>
+int sum_matrix(int a[n][],int b[n][],int c[n][]){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            c[i][j]=a[i][j]+b[i][j];
+        }
+    }
+    return 0;
+}
+int main(){
+    int n;
+    printf("enter the size of matrix");
+    scanf("%d",&n);
+    int a[n][n],b[n][n],c[n][n];
+    printf("enter the elements of matrix a");
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("enter the elements of matrix b");
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            scanf("%d",&b[i][j]);
+        }
+    }
+    sum_matrix(a,b,c);
+    printf("the sum of matrix is");
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            printf("%d",c[i][j]);
+        }
+    }
+    return 0;
+}
